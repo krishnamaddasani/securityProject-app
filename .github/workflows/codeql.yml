@@ -13,9 +13,9 @@ name: "CodeQL Advanced"
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "UAT" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "UAT" ]
   schedule:
     - cron: '0 10 * * *'
   workflow_dispatch:
